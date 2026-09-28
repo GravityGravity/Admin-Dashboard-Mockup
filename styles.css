@@ -1,0 +1,15 @@
+.grid-container {
+    display: inline-grid;
+    grid-template: 50px 50px 50px / 50px 50px 50px;
+    background-color: lightblue;
+}
+
+.grid-container div {
+    outline: 1px solid black;
+}
+
+#header {    
+    background-color: blue;
+    text-align: center;
+    grid-area: 1 / 1 / 2 / -1;
+}
