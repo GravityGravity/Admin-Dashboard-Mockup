@@ -97,6 +97,7 @@ header {
 .sidebar {
     background-color: blue;
     color: white;
+    height: 100vh;
     grid-row: 1 / -1;
 }
 
@@ -119,6 +120,10 @@ header {
   & img {
     
   }
+}
+
+.nav-links {
+  margin-top: 2rem;
 }
 
 /* CONTENT */
@@ -151,5 +156,5 @@ header {
 }
 
 .trend-event {
-  
+
 }
