@@ -96,6 +96,10 @@ header {
   z-index: 1;
 }
 
+h5 {
+  font-size: 1.5rem;
+}
+
 .content {
     background-color: lightgray;
 }
@@ -133,6 +137,22 @@ header {
   display: flex;
   justify-content: space-between;
   margin: 2rem 0 0 0;
+}
+
+.profile {
+  display: inline-flex;
+  flex: 1;
+  justify-content: flex-end;
+  gap: 1rem;
+
+  & span {
+    font-size: large;
+  }
+
+  & img {
+    object-fit: contain;
+  }
+
 }
 
 .search-bar {
