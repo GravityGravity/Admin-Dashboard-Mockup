@@ -73,12 +73,18 @@ body {
   font-family: sans-serif;
 }
 
+img {
+  display: inline-block;
+  width: 16px;
+  color: white;
+}
+
 .layout {
   display: grid;
   grid-template: auto 1fr / max-content 1fr;
 
   & > * {
-    padding: 5px;
+    padding: 10px;
   }
 
 }
@@ -99,6 +105,21 @@ header {
     color: white;
     height: 100vh;
     grid-row: 1 / -1;
+
+    & ul {
+      padding: 0px;
+    }
+
+}
+
+.sidebar-title {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  & img {
+    width: 1.5rem;
+    filter: brightness(0) invert(1);
+  }
 }
 
 /* HEADER */
@@ -115,10 +136,16 @@ header {
 
 /* SIDEBAR */
 
+.sidebar a {
+  display: flex;
+  gap: 0.5rem;
+  align-content: center;
+}
+
 .sidebar li {
   list-style: none;
   & img {
-    
+    filter: brightness(0) invert(1);
   }
 }
 
@@ -130,7 +157,7 @@ header {
 
 .content {
   display: grid;
-  grid-template: 1fr 1fr / 3fr 1fr;
+  grid-template: 1fr 1fr / 5fr 2fr;
   padding: 1rem;
   gap: 1rem;
 }
@@ -143,20 +170,45 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-auto-rows: 1fr;
-
   gap: 1rem;
 }
 
 .card {
-  padding: 2rem;
+  padding: 1.5rem;
 
   background-color: white;
-  box-shadow: var(--shadow-elevation-medium);
+  box-shadow: var(--shadow-elevation-medium),
+  10px 0px 0px 0px rgba(238,158,53,1) inset;
+}
+
+.card button {
+  display: inline-flex;
+  align-items: center;      /* vertical centering */
+  justify-content: center;  /* horizontal centering */
+  gap: 0.5em;               /* space between icon and text */
+}
+
+.card img {
+  display: inline;
+  object-fit: contain;
+  &.fav {
+    content: url("./imgs/award.svg");
+  }
+
+  &.view {
+    content: url("./imgs/book-open.svg");
+  }
+
+  &.share {
+    content: url("./imgs/at-sign.svg")
+  }
 }
 
 .sub-container{
   background-color: white;
   box-shadow: var(--shadow-elevation-medium);
+
+  padding: 1rem;
 }
 
 .announcements {
