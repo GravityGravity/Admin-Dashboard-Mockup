@@ -264,6 +264,11 @@ header {
 	& a {
 		display: flex;
 		gap: 0.5rem;
+
+		&:hover {
+			cursor: pointer;
+			text-decoration: underline;
+		}
 	}
 }
 
