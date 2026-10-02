@@ -113,7 +113,6 @@ p {
    ========================================================================== */
 
 .layout {
-	height: 100dvh;
 	display: grid;
 	grid-template: auto 1fr / max-content 1fr;
 }
@@ -154,7 +153,6 @@ header {
 .layout
 	& input {
 		flex: 1;
-		min-width: 0;
 		padding: 0 1.5ch;
 		border: 2px solid transparent;
 		border-radius: 10px;
@@ -214,11 +212,6 @@ header {
 		align-self: end;
 		font-weight: lighter;
 	}
-
-	&:nth-child(3) {
-
-	}
-
 }
 
 .content-api {
@@ -238,6 +231,7 @@ header {
 		padding: 16px 40px;
 		font-size: 1.25rem;
 		border-radius: 32px;
+		box-shadow: var(--shadow-elevation-medium);
 
 		&:hover {
 			color: #fff;
@@ -330,8 +324,6 @@ header {
 	grid-template-columns: repeat(auto-fill, minmax(calc(1.5rem + 40ch), 1fr));
 	grid-auto-rows: 1fr;
 	gap: 1rem;
-	min-height: 0;
-	overflow-y: auto;
 	padding-bottom: 1rem;
 }
 
