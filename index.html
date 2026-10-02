@@ -1,170 +1,285 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="styles.css" />
-		<title>Admin Dashboard</title>
-	</head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>Admin Dashboard</title>
+    </head>
 
-	<body>
-		<div class="layout">
-			<header>
-				<div class="primary-header">
-					<div class="search-bar">
-						<img class="icon" src="./imgs/search.svg"/>
-						<input type="text" />
-					</div>
-					<div class="profile">
-                        <img class="icon" src="./imgs/bell.svg"/>
-						<img class="profile-pic" src="./imgs/profile_pic.jpg"/>
-						<span class="bold">Morgan Oakley</span>
-					</div>
-				</div>
+    <body>
+        <div class="layout">
+            <header>
+                <div class="primary-header">
+                    <div class="search-bar">
+                        <img class="icon" src="./imgs/search.svg" />
+                        <input type="text" />
+                    </div>
+                    <div class="profile">
+                        <img class="icon" src="./imgs/bell.svg" />
+                        <img class="profile-pic" src="./imgs/profile_pic.jpg" />
+                        <span class="bold">Morgan Oakley</span>
+                    </div>
+                </div>
 
-				<div class="secondary-header">
-					<div class="profile-intro bold">
-						<img src="./imgs/profile_pic.jpg"/>
-						<span>Hi there</span> 
-						<span>Morgan Oakley (@morgan)</span>
-					</div>
+                <div class="secondary-header">
+                    <div class="profile-intro bold">
+                        <img src="./imgs/profile_pic.jpg" />
+                        <span>Hi there</span>
+                        <h5>Morgan Oakley (@morgan)</h5>
+                    </div>
 
-					<div class="content-api">
-						<button  class="new-btn" type="button">New</button>
-						<button  type="button">Upload</button>
-						<button  type="button">Share</button>
-					</div>
-				</div>
-			</header>
+                    <div class="content-api">
+                        <button class="new-btn" type="button">New</button>
+                        <button type="button">Upload</button>
+                        <button type="button">Share</button>
+                    </div>
+                </div>
+            </header>
 
-			<section class="sidebar">
-				<div class="sidebar-title">
-					<img src="./imgs/codesandbox.svg"/>
-					<h2>Dashboard</h2>
-				</div>
+            <section class="sidebar">
+                <div class="sidebar-title">
+                    <img src="./imgs/codesandbox.svg" />
+                    <h2>Dashboard</h2>
+                </div>
 
-				<nav class="nav-links">
-					<ul>
-						<li>
-							<a><img src="./imgs/home.svg"/> Home </a>
-						</li>
-						<li>
-							<a><img src="./imgs/smile.svg"/> Profile </a>
-						</li>
-						<li>
-							<a><img src="./imgs/message-square.svg"/> Messages </a>
-						</li>
-						<li>
-							<a><img src="./imgs/clock.svg"/> History </a>
-						</li>
-						<li>
-							<a><img src="./imgs/book-open.svg"/> Tasks </a>
-						</li>
-						<li>
-							<a><img src="./imgs/users.svg"/> Communities </a>
-						</li>
-					</ul>
-				</nav>
-				<nav class="nav-links">
-					<ul>
-						<li>
-							<a><img src="./imgs/settings.svg"/> Settings </a>
-						</li>
-						<li>
-							<a><img src="./imgs/help-circle.svg"/> Support </a>
-						</li>
-						<li>
-							<a><img src="./imgs/shield.svg"/> Privacy </a>
-						</li>
-					</ul>
-				</nav>
-				<div class="sidebar-footer">
-					Icons by <a href="https://feathericons.com/" referrerpolicy="norefer" target="_blank">feathericons</a>
-				</div>
-			</section>
+                <nav class="nav-links">
+                    <ul>
+                        <li>
+                            <a><img src="./imgs/home.svg" /> Home </a>
+                        </li>
+                        <li>
+                            <a><img src="./imgs/smile.svg" /> Profile </a>
+                        </li>
+                        <li>
+                            <a
+                                ><img src="./imgs/message-square.svg" />
+                                Messages
+                            </a>
+                        </li>
+                        <li>
+                            <a><img src="./imgs/clock.svg" /> History </a>
+                        </li>
+                        <li>
+                            <a><img src="./imgs/book-open.svg" /> Tasks </a>
+                        </li>
+                        <li>
+                            <a><img src="./imgs/users.svg" /> Communities </a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="nav-links">
+                    <ul>
+                        <li>
+                            <a><img src="./imgs/settings.svg" /> Settings </a>
+                        </li>
+                        <li>
+                            <a><img src="./imgs/help-circle.svg" /> Support </a>
+                        </li>
+                        <li>
+                            <a><img src="./imgs/shield.svg" /> Privacy </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="sidebar-footer">
+                    Icons by
+                    <a
+                        href="https://feathericons.com/"
+                        referrerpolicy="norefer"
+                        target="_blank"
+                        >feathericons</a
+                    >
+                </div>
+            </section>
 
-			<section class="content">
-				<div class="projects">
-					<h5>Your Projects</h5>
-					<section class="card-container">
-						<article class="card">
-							<h6>Title</h6>
-							<p>Sed tempus ut lactus uut sterasqweur suspensindes.</p>
-							<nav>
-								<button type="button"><img class="fav" /></button>
-								<button type="button"><img class="view"/></button>
-								<button type="button"><img class="share"/></button>
-							</nav>
-						</article>
-						<article class="card">
-							<h6>Title</h6>
-							<p>Sed tempus ut lactus uut sterasqweur suspensindes.</p>
-							<nav>
-								<button type="button"><img class="fav" /></button>
-								<button type="button"><img class="view"/></button>
-								<button type="button"><img class="share"/></button>
-							</nav>
-						</article>
-						<article class="card">
-							<h6>Title</h6>
-							<p>Sed tempus ut lactus uut sterasqweur suspensindes.</p>
-							<nav>
-								<button type="button"><img class="fav" /></button>
-								<button type="button"><img class="view"/></button>
-								<button type="button"><img class="share"/></button>
-							</nav>
-						</article>
-						<article class="card">
-							<h6>Title</h6>
-							<p>Sed tempus ut lactus uut sterasqweur suspensindes.</p>
-							<nav>
-								<button type="button"><img class="fav" /></button>
-								<button type="button"><img class="view"/></button>
-								<button type="button"><img class="share"/></button>
-							</nav>
-						</article>
-						<article class="card">
-							<h6>Title</h6>
-							<p>Sed tempus ut lactus uut sterasqweur suspensindes.</p>
-							<nav>
-								<button type="button"><img class="fav" /></button>
-								<button type="button"><img class="view"/></button>
-								<button type="button"><img class="share"/></button>
-							</nav>
-						</article>
-						<article class="card">
-							<h6>Title</h6>
-							<p>Sed tempus ut lactus uut sterasqweur suspensindes.</p>
-							<nav>
-								<button type="button"><img class="fav" /></button>
-								<button type="button"><img class="view"/></button>
-								<button type="button"><img class="share"/></button>
-							</nav>
-						</article>	
-					</section>
-				</div>
+            <section class="content">
+                <div class="projects">
+                    <h5>Your Projects</h5>
+                    <section class="card-container">
+                        <article class="card">
+                            <h6>Title</h6>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut
+                                enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat.
+                            </p>
+                            <nav>
+                                <button type="button">
+                                    <img class="fav" />
+                                </button>
+                                <button type="button">
+                                    <img class="view" />
+                                </button>
+                                <button type="button">
+                                    <img class="share" />
+                                </button>
+                            </nav>
+                        </article>
+                        <article class="card">
+                            <h6>Title</h6>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut
+                                enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat.
+                            </p>
+                            <nav>
+                                <button type="button">
+                                    <img class="fav" />
+                                </button>
+                                <button type="button">
+                                    <img class="view" />
+                                </button>
+                                <button type="button">
+                                    <img class="share" />
+                                </button>
+                            </nav>
+                        </article>
+                        <article class="card">
+                            <h6>Title</h6>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut
+                                enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat.
+                            </p>
+                            <nav>
+                                <button type="button">
+                                    <img class="fav" />
+                                </button>
+                                <button type="button">
+                                    <img class="view" />
+                                </button>
+                                <button type="button">
+                                    <img class="share" />
+                                </button>
+                            </nav>
+                        </article>
+                        <article class="card">
+                            <h6>Title</h6>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut
+                                enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat.
+                            </p>
+                            <nav>
+                                <button type="button">
+                                    <img class="fav" />
+                                </button>
+                                <button type="button">
+                                    <img class="view" />
+                                </button>
+                                <button type="button">
+                                    <img class="share" />
+                                </button>
+                            </nav>
+                        </article>
+                        <article class="card">
+                            <h6>Title</h6>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut
+                                enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat.
+                            </p>
+                            <nav>
+                                <button type="button">
+                                    <img class="fav" />
+                                </button>
+                                <button type="button">
+                                    <img class="view" />
+                                </button>
+                                <button type="button">
+                                    <img class="share" />
+                                </button>
+                            </nav>
+                        </article>
+                        <article class="card">
+                            <h6>Title</h6>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut
+                                enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat.
+                            </p>
+                            <nav>
+                                <button type="button">
+                                    <img class="fav" />
+                                </button>
+                                <button type="button">
+                                    <img class="view" />
+                                </button>
+                                <button type="button">
+                                    <img class="share" />
+                                </button>
+                            </nav>
+                        </article>
+                    </section>
+                </div>
 
-				<section class="announcements">
-					<h5>Announcements</h5>
-					<section class="sub-container">
-						<article class="announce-event">
-							<h6>Announce Event Title</h6>
-							<p>Omg its my birthday today! Everybody say horray!</p>
-						</article>
-					</section>
-				</section>
+                <section class="announcements">
+                    <h5>Announcements</h5>
+                    <section class="sub-container">
+                        <article class="announce-event">
+                            <h6>Announce Event Title</h6>
+                            <p>
+                                Omg its my birthday today! Everybody say horray!
+                            </p>
+                        </article>
+                        <hr />
+                        <article class="announce-event">
+                            <h6>Announce Event Title</h6>
+                            <p>
+                                Omg its my birthday today! Everybody say horray!
+                            </p>
+                        </article>
+                        <hr />
+                        <article class="announce-event">
+                            <h6>Announce Event Title</h6>
+                            <p>
+                                Omg its my birthday today! Everybody say horray!
+                            </p>
+                        </article>
+                    </section>
+                </section>
 
-				<section class="trending">
-					<h5>Trending</h5>
-					<section class="sub-container">
-						<article class="trend-event">
-							<img src="./imgs/profile_pic.jpg"/>
-							<p>@tegan</p>
-							<p>World piece builder</p>
-						</article>
-					</section>
-				</section>
-			</section>
-		</div>
-	</body>
+                <section class="trending">
+                    <h5>Trending</h5>
+                    <section class="sub-container">
+                        <article class="trend-event">
+                            <img src="./imgs/profile_pic.jpg" />
+							<span>@tegan</span>
+                            <span>World piece builder</span>
+                        </article>
+						<hr>
+                        <article class="trend-event">
+                            <img src="./imgs/profile_pic.jpg" />
+							<span>@tegan</span>
+                            <span>World piece builder</span>
+                        </article>
+						<hr>
+                        <article class="trend-event">
+                            <img src="./imgs/profile_pic.jpg" />
+							<span>@tegan</span>
+                            <span>World piece builder</span>
+                        </article>
+                    </section>
+                </section>
+            </section>
+        </div>
+    </body>
 </html>
