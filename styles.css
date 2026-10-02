@@ -295,6 +295,7 @@ header {
 .sub-container {
 	background-color: white;
 	box-shadow: var(--shadow-elevation-medium);
+  border-radius: 5px;
 }
 
 .card {
