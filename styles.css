@@ -297,6 +297,7 @@ header {
 	gap: 1rem;
 	min-height: 0;
 	overflow-y: auto;
+	padding-bottom: 1rem;
 }
 
 .card,
