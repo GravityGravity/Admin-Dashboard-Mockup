@@ -1,7 +1,7 @@
 # Admin Dashboard Mockup
 This is a admin dashboard mock up to practice CSS grid layouts
 
-**Live Demo:** [View the site][(https://gravitygravity.github.io/Admin-Dashboard-Mockup/)]
+**Live Demo:** [View the site](https://gravitygravity.github.io/Admin-Dashboard-Mockup/)
  
 ![Admin Dashboard Screenshot](./imgs/screenshot.png)
  
