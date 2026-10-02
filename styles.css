@@ -136,7 +136,8 @@ header {
 }
 
 .secondary-header {
-	margin-top: 16px;
+	margin: 16px 0 0 0;
+	padding-bottom: 5px;
 }
 
 .search-bar {
@@ -174,6 +175,7 @@ header {
 	justify-content: flex-end;
 	align-items: center;
 	gap: 1.5rem;
+	margin-right: 5%;
 
 	& span {
 		font-size: large;
@@ -221,7 +223,8 @@ header {
 
 .content-api {
 	display: flex;
-	gap: 1rem;
+	gap: 3rem;
+	margin-right: 5%;
 
 	& button {
 		outline: 0;
@@ -232,7 +235,7 @@ header {
 		font-weight: 400;
 		text-align: center;
 		border: 1px solid transparent;
-		padding: 9px 30px;
+		padding: 16px 40px;
 		font-size: 1rem;
 		border-radius: 32px;
 
@@ -281,6 +284,11 @@ header {
 	& ul {
 		padding: 0;
 		list-style: none;
+
+		& li {
+			margin-top: 8px;
+		}
+
 	}
 }
 
