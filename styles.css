@@ -91,6 +91,14 @@ h5 {
 	font-size: 1.5rem;
 }
 
+h6 {
+	font-size: 1.25rem;
+}
+
+p {
+	font-size: 1.2rem;
+}
+
 .bold {
 	font-weight: bold;
 }
@@ -183,7 +191,7 @@ header {
 	& img {
 		grid-row: 1 / -1;
 		border-radius: 100%;
-		width: 70px;
+		width: 100px;
 		aspect-ratio: 1;
 		padding: 10px;
 	}
@@ -246,7 +254,7 @@ header {
 .nav-links {
 	margin-top: 1.5rem;
 	padding: 10px;
-	font-size: large;
+	font-size: 1.25rem;
 
 	& ul {
 		padding: 0;
@@ -295,6 +303,7 @@ header {
 .sub-container {
 	background-color: white;
 	box-shadow: var(--shadow-elevation-medium);
+	border-radius: 5px;
 }
 
 .card {
@@ -307,14 +316,21 @@ header {
 		display: flex;
 		justify-content: flex-end;
 		align-items: center;
-    gap: 5px;
+		gap: 5px;
 
-    margin-top: 1rem;
+		margin-top: 1rem;
 
 		& button {
+			display: inline-block;
 			border: none;
 			outline: none;
 			background-color: transparent;
+			line-height: normal;
+
+			& img {
+				width: 1.5rem;
+				aspect-ratio: 1;
+			}
 		}
 	}
 
